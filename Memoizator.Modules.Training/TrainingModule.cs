@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Memoizator.Modules.Training.Training;
 using Prism.Modularity;
 using Prism.Regions;
 
