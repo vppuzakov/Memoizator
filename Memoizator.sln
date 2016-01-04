@@ -9,8 +9,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CFFA88A1-9
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memoizator", "Memoizator\Memoizator.csproj", "{57586123-FBBD-4B39-A6BD-8411B5BDD274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A5B9A887-8C93-48A6-899F-50663BE4D5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memoizator.Modules.Training", "Memoizator.Modules.Training\Memoizator.Modules.Training.csproj", "{4E47D71A-67F3-4644-ACF0-A7A26E984200}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57586123-FBBD-4B39-A6BD-8411B5BDD274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57586123-FBBD-4B39-A6BD-8411B5BDD274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57586123-FBBD-4B39-A6BD-8411B5BDD274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57586123-FBBD-4B39-A6BD-8411B5BDD274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E47D71A-67F3-4644-ACF0-A7A26E984200} = {A5B9A887-8C93-48A6-899F-50663BE4D5FA}
 	EndGlobalSection
 EndGlobal
