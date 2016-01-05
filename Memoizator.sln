@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A5B9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memoizator.Modules.Training", "Memoizator.Modules.Training\Memoizator.Modules.Training.csproj", "{4E47D71A-67F3-4644-ACF0-A7A26E984200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memoizator.Modules.Training.Tests", "Memoizator.Modules.Training.Tests\Memoizator.Modules.Training.Tests.csproj", "{13428CCC-EE94-40B0-932D-E23AF8A8AA8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,16 @@ Global
 		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E47D71A-67F3-4644-ACF0-A7A26E984200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13428CCC-EE94-40B0-932D-E23AF8A8AA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13428CCC-EE94-40B0-932D-E23AF8A8AA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13428CCC-EE94-40B0-932D-E23AF8A8AA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13428CCC-EE94-40B0-932D-E23AF8A8AA8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4E47D71A-67F3-4644-ACF0-A7A26E984200} = {A5B9A887-8C93-48A6-899F-50663BE4D5FA}
+		{13428CCC-EE94-40B0-932D-E23AF8A8AA8F} = {A5B9A887-8C93-48A6-899F-50663BE4D5FA}
 	EndGlobalSection
 EndGlobal
